@@ -1,0 +1,80 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: relative;
+}
+
+/* MENU */
+ul li a{
+    text-decoration: none;
+    color:  black;
+    margin: 0 20px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px 0;
+    list-style-type: none;
+}
+
+/* ALL PRODUCT */
+.product{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.number-1{
+    background-color: #ff0000;
+}
+
+.number-2{
+    background-color: #008000;
+}
+
+.number-3{
+    background-color: #ffff00;
+}
+
+.image-description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    word-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.yellow{
+    color: #fafc00;
+}
+
+.green{
+    color: #0a8500;
+}
